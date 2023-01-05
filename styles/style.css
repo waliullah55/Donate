@@ -1,0 +1,92 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 1040px;
+    margin: 50px auto;
+    text-align: center;
+}
+.bannar{
+    background-image: linear-gradient(to bottom,rgba(1 2 11 / 0%), rgba(0 0 0 / 84%)),
+    url('../images/donation1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 850px;
+    position: relative;
+}
+
+.bannar-container{
+    color: #ffffff;
+    width: 930px;
+    top: 300px;
+    position: absolute;
+    left: 445px;
+    text-align: center;
+}
+.bannar-tittle{
+    font-size: 80px;
+    font-weight: 700;
+}
+.bannar-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(198, 195, 195);
+    width: 750px;
+    margin: 10px auto 30px;
+}
+.primary-btn{
+    border: none;
+    color: #fff;
+    background-color: rgb(255, 0, 68);
+    border-radius: 7px;
+    padding: 20px 25px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* Donate amount  */
+section.donate-amount {
+    overflow: hidden;
+}
+.section-some{
+    width: 700px;
+    margin: 50px auto;
+    overflow: hidden;
+}
+.section-tittle{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 30px 0;
+}
+.section-decsription{
+    font-size: 22px;
+    font-weight: 400;
+    color: #464545;
+    margin-bottom: 30px;
+}
+.amountBox ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.amountBox ul li{
+    list-style: none;
+}
+.amountBox ul li a{
+    text-decoration: none;
+    padding: 45px;
+    background-color: #7372724a;
+    color: #464545;
+    font-size: 40px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.light{
+    border: 3px solid rgb(239 34 34);
+    background-color: rgb(244 101 139 / 19%) !important;
+    color: rgb(255 0 16 / 97%) !important;
+}
