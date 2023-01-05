@@ -144,3 +144,44 @@ section.donate-amount {
     margin-top: 120px;
     margin-bottom: 100px;
 }
+
+/* contact */
+.send {
+    padding: 70px 150px;
+    background: #eb710936;
+    border-radius: 5px;
+}
+.send input{
+    border: none;
+    padding: 15px;
+    font-size: 30px;
+}
+.mail{
+    background-color: #d6cfcf;
+    color: #000000;
+    border-radius: 5px 0 0 5px;
+}
+.submit{
+    background-color: rgb(255, 0, 68);
+    color: #FFF;
+    margin-left: -10px;
+    border-radius: 0 5px 5px 0;
+}
+/* footer */
+
+.footer{
+    background-color: rgb(7 1 31);
+    padding: 100px 0;
+    text-align: center;
+}
+.footer h2{
+    font-family: 'Lobster', cursive;
+    font-size: 55px;
+    color: rgb(252 21 83);
+}
+
+.footer p {
+    padding-top: 20px;
+    font-size: 18px;
+    color: #ddd;
+}
